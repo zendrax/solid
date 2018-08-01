@@ -1,0 +1,28 @@
+{
+    "name": "drazen/solid",
+    "description": "SOLID",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Drazen Vasiljevic",
+            "email": "drazen985@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
